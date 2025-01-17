@@ -5,7 +5,7 @@ public class NameCalculator {
         for (char i : name.toLowerCase().toCharArray()) {
 
             if (i >= 'a' && i <= 'z') {
-                sum = sum + i - 'a' + 1;
+                sum += i - 'a' + 1;
             }
 
         }
